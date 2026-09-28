@@ -1,3 +1,4 @@
-#nome das duplas
+# Mariana Cherobino Lourenço
+# Fernanda Santos Gomes 
 
 
