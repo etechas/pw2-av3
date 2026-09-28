@@ -1,4 +1,8 @@
 package br.com.etec.projeto.repository;
 
-public interface Repository {
+import br.com.etec.projeto.entity.ExercicioFisico;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface Repository
+        extends JpaRepository<ExercicioFisico, Long> {
 }
