@@ -1,4 +1,4 @@
-package com.etechoracio.academia.entity;
+package br.com.etechoracio.academia.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
