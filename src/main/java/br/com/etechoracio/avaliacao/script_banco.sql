@@ -1,0 +1,14 @@
+CREATE DATABASE exercicio
+USE exercicio;
+CREATE TABLE exerciciofisico (
+    ID_EXERCICIO PRIMARY KEY IDENTITY,
+    NOME VARCHAR(50) NOT NULL,
+    GRUPO_MUSCULAR VARCHAR(300) NOT NULL,
+    IMAGEM VARCHAR(20),
+    DESCRICAO VARCHAR(50),
+    NUM_SERIES INT,
+    NUM_REPETICOES INT,
+    CARGA_SUG INT,
+    NIVEL_DIFIC INT,
+);
+INSERT exerciciofisico values(1,'Supino', 'Peitoral', null, null, 3, 15, 70 , 2)
